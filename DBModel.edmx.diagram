@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9da1e580185240889f20ccd0e8f86132" Name="Diagram1">
+        <EntityTypeShape EntityType="P_MayorovModel.Agent" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.AgentPriorityHistory" Width="1.5" PointX="5.25" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.AgentType" Width="1.5" PointX="0.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.Books" Width="1.5" PointX="7.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.DeliveryPlaces" Width="1.5" PointX="10" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.Material" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.MaterialCountHistory" Width="1.5" PointX="5.25" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.MaterialType" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.Order" Width="1.5" PointX="10" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.Orders" Width="1.5" PointX="12.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.Product" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.ProductCostHistory" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.ProductMaterial" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.ProductSale" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.ProductType" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.Shop" Width="1.5" PointX="5.25" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.Supplier" Width="1.5" PointX="5.25" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="P_MayorovModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="P_MayorovModel.FK_Agent_AgentType" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.FK_AgentPriorityHistory_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.FK_ProductSale_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.FK_Shop_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.FK_Order_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.FK_Orders_DeliveryPlaces" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.FK_Material_MaterialType" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.FK_MaterialCountHistory_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.FK_ProductMaterial_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.FK_Orders_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.FK_Product_ProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.FK_ProductCostHistory_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.FK_ProductMaterial_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="P_MayorovModel.MaterialSupplier" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
