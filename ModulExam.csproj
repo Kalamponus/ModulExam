@@ -225,8 +225,8 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BookDiscountLibrary\BookDiscountLibrary.csproj">
-      <Project>{043bb18b-49a6-42d8-99f6-9623d440f76a}</Project>
+    <ProjectReference Include="BookDiscountLibrary\BookDiscountLibrary.csproj">
+      <Project>{9821fdba-1c94-45a6-891a-5152e4ab387f}</Project>
       <Name>BookDiscountLibrary</Name>
     </ProjectReference>
   </ItemGroup>
